@@ -203,6 +203,10 @@ table {
   }
 }
 
+.pasi {
+  padding-right: 4rem;
+}
+
 .container__inner {
   grid-column: col-start/col-end;
   padding: 6% 0 6% 0 !important;
