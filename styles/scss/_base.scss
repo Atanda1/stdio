@@ -225,3 +225,9 @@ table {
       margin-right: .2rem;
   } 
 }
+
+.client {
+    @media screen and (max-width: $small) {
+        margin-top: 3rem !important;
+      }
+}

@@ -197,6 +197,12 @@ table {
   margin-right: 0.2rem;
 }
 
+@media screen and (max-width: 420px) {
+  .client {
+    margin-top: 3rem !important;
+  }
+}
+
 .container__inner {
   grid-column: col-start/col-end;
   padding: 6% 0 6% 0 !important;
@@ -235,6 +241,11 @@ table {
   line-height: 2.4rem;
   padding-top: 1.5rem;
 }
+@media screen and (max-width: 420px) {
+  .container__inner__options__services {
+    margin-top: 8rem;
+  }
+}
 .container__inner__options__cta button {
   background-color: #004ac4;
   border-radius: 10px;
@@ -255,6 +266,11 @@ table {
 .container__inner__hero__team {
   text-align: center;
 }
+@media screen and (max-width: 420px) {
+  .container__inner__hero__team {
+    display: none;
+  }
+}
 .container__inner__hero__team__title {
   font-weight: 900;
   font-size: 1.2rem;
@@ -266,12 +282,22 @@ table {
   font-size: 1.4rem;
   line-height: 125%;
 }
+@media screen and (max-width: 420px) {
+  .container__inner__hero__team__name {
+    font-size: 2.5rem;
+  }
+}
 .container__inner__hero__team__job {
   padding-top: 1.1rem;
   font-style: normal;
   font-weight: normal;
   font-size: 1.4rem;
   line-height: 2.1rem;
+}
+@media screen and (max-width: 420px) {
+  .container__inner__hero__team__job {
+    font-size: 1.9rem;
+  }
 }
 .container__inner__hero__team img {
   margin: 0 auto;
@@ -295,6 +321,15 @@ table {
 @media screen and (max-width: 420px) {
   .container__inner__hero__inner__bigtext {
     font-size: 9rem;
+  }
+}
+
+.disappear {
+  display: none;
+}
+@media screen and (max-width: 420px) {
+  .disappear {
+    display: block;
   }
 }
 
