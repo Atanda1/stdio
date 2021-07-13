@@ -198,8 +198,8 @@ table {
 }
 
 @media screen and (max-width: 420px) {
-  .client {
-    margin-top: 3rem !important;
+  .mas {
+    margin-bottom: 4rem;
   }
 }
 
@@ -241,11 +241,6 @@ table {
   line-height: 2.4rem;
   padding-top: 1.5rem;
 }
-@media screen and (max-width: 420px) {
-  .container__inner__options__services {
-    margin-top: 8rem;
-  }
-}
 .container__inner__options__cta button {
   background-color: #004ac4;
   border-radius: 10px;
@@ -275,6 +270,11 @@ table {
   font-weight: 900;
   font-size: 1.2rem;
   line-height: 125%;
+}
+@media screen and (max-width: 420px) {
+  .container__inner__hero__team__title {
+    font-size: 3rem;
+  }
 }
 .container__inner__hero__team__name {
   padding-top: 1.6rem;
