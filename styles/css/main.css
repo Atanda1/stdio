@@ -274,7 +274,7 @@ table {
 @media screen and (max-width: 550px) {
   .container__inner__hero__team__title {
     font-size: 3rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 3.2rem;
   }
 }
 .container__inner__hero__team__name {
@@ -321,7 +321,7 @@ table {
 }
 @media screen and (max-width: 550px) {
   .container__inner__hero__inner__bigtext {
-    font-size: 9rem;
+    font-size: 7rem;
   }
 }
 
