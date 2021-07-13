@@ -1,0 +1,23 @@
+{
+  "name": "stdio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch styles/scss/_main.scss:styles/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Atanda1/stdio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Atanda1/stdio/issues"
+  },
+  "homepage": "https://github.com/Atanda1/stdio#readme",
+  "dependencies": {
+    "sass": "^1.35.2"
+  }
+}
