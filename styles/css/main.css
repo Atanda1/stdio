@@ -321,7 +321,7 @@ table {
 }
 @media screen and (max-width: 550px) {
   .container__inner__hero__inner__bigtext {
-    font-size: 7rem;
+    font-size: 8rem;
   }
 }
 
