@@ -2,9 +2,14 @@
   display: none;
   @media screen and (max-width: $small) {
     display: block;
+    text-align: left;
     &__grid {
       display: grid;
+      text-align: left;
       grid-template-columns: 1fr 1fr 1fr;
+      img {
+        margin: 0;
+      }
     }
     
   }

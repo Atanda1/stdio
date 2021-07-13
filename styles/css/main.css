@@ -274,6 +274,7 @@ table {
 @media screen and (max-width: 550px) {
   .container__inner__hero__team__title {
     font-size: 3rem;
+    margin-bottom: 1.2rem;
   }
 }
 .container__inner__hero__team__name {
@@ -330,10 +331,15 @@ table {
 @media screen and (max-width: 550px) {
   .disappear {
     display: block;
+    text-align: left;
   }
   .disappear__grid {
     display: grid;
+    text-align: left;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .disappear__grid img {
+    margin: 0;
   }
 }
 
