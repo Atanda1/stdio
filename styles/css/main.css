@@ -197,7 +197,7 @@ table {
   margin-right: 0.2rem;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
   .mas {
     margin-bottom: 4rem;
   }
@@ -216,7 +216,7 @@ table {
   height: min-content;
   margin-top: 4%;
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
   .container__inner__options {
     width: 100%;
     grid-template-columns: 1fr;
@@ -261,7 +261,7 @@ table {
 .container__inner__hero__team {
   text-align: center;
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
   .container__inner__hero__team {
     display: none;
   }
@@ -271,7 +271,7 @@ table {
   font-size: 1.2rem;
   line-height: 125%;
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
   .container__inner__hero__team__title {
     font-size: 3rem;
   }
@@ -282,7 +282,7 @@ table {
   font-size: 1.4rem;
   line-height: 125%;
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
   .container__inner__hero__team__name {
     font-size: 2.5rem;
   }
@@ -294,7 +294,7 @@ table {
   font-size: 1.4rem;
   line-height: 2.1rem;
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
   .container__inner__hero__team__job {
     font-size: 1.9rem;
   }
@@ -318,7 +318,7 @@ table {
   letter-spacing: 0.05em;
   margin-top: 4rem;
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
   .container__inner__hero__inner__bigtext {
     font-size: 9rem;
   }
@@ -327,7 +327,7 @@ table {
 .disappear {
   display: none;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 550px) {
   .disappear {
     display: block;
   }
