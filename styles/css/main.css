@@ -207,6 +207,10 @@ table {
   padding-right: 4rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container__inner {
   grid-column: col-start/col-end;
   padding: 6% 0 6% 0 !important;
