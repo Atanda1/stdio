@@ -82,9 +82,13 @@ body {
     background-position: right 5rem top 5rem;
     background-size: 20%;
     height: 100vh; 
+    @media screen and (max-width: $small) {
+        background-size:  40%;
    
+      }
     @media screen and (max-width: 320px) {
         margin: .2rem;
+   
       }
 }
 ol, ul {

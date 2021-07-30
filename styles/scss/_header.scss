@@ -3,6 +3,9 @@
     grid-column: col-start/ col-end;
     padding: 6% 0 6% 0 !important;
     text-align: left;
+    @media screen and (max-width: $small) {
+      padding-top: 16% !important;
+   }
     &__options {
       width: 90%;
       display: grid;
@@ -37,9 +40,14 @@
         }
       }
       &__cta {
+        color: black;
+        a {
+          color: black;
+        }
         button {
           background-color: #CEDF00;
           border-radius: 10px;
+          color: black;
           border: none;
           letter-spacing: 0.1em;
           font-size: 2rem;
